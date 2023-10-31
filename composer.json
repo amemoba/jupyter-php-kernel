@@ -1,5 +1,5 @@
 {
-    "name": "litipk/jupyter-php",
+    "name": "mobaichi/jupyter-php",
     "description": "A PHP Kernel for Jupyter",
     "type": "project",
     "license": "MIT",

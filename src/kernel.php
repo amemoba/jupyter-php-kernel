@@ -29,6 +29,8 @@ $pathToVendorAutoloader = \file_exists(PATH_TO_VENDOR_AUTOLOADER_AS_LIBRARY)
     : PATH_TO_VENDOR_AUTOLOADER_AS_PROJECT;
 
 require ($pathToVendorAutoloader);
+require (PATH_TO_VENDOR_AUTOLOADER_AS_LIBRARY);
+require (PATH_TO_VENDOR_AUTOLOADER_AS_PROJECT);
 
 
 use JupyterPHP\System\System;
